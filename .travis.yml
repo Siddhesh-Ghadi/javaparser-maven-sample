@@ -15,4 +15,4 @@ jobs:
       dist: bionic
       
 sudo: required      
-before_script: sudo apt install maven -y && mvn --version
+before_install: sudo apt install maven -y && mvn --version
