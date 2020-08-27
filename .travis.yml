@@ -15,4 +15,4 @@ jobs:
       dist: bionic
       
 sudo: required      
-before_install: sudo apt install maven -y && mvn --version
+before_install: if [ "$TRAVIS_CPU_ARCH" == "ppc64le" ]; then sudo apt install maven -y && mvn --version; fi
