@@ -13,3 +13,6 @@ jobs:
       dist: xenial
     - arch: ppc64le
       dist: bionic
+      
+sudo: required      
+before_script: sudo apt install maven -y && mvn --version
