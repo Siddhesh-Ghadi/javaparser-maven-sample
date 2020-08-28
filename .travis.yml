@@ -13,3 +13,5 @@ jobs:
       dist: xenial
     - arch: ppc64le
       dist: bionic
+      
+before_script: mvn --version
