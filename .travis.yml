@@ -14,4 +14,4 @@ jobs:
     - arch: ppc64le
       dist: bionic
       
-before_script: mvn --version && which mvn
+before_script: mvn --version && which mvn && echo $PATH
