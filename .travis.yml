@@ -1,7 +1,6 @@
 # This is for https://travis-ci.org/ - you can ignore it.
-language: java
-jdk:
-  - openjdk11
+language: python
+
 
 jobs:
   include:
