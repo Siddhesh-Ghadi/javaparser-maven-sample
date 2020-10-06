@@ -15,5 +15,4 @@ jobs:
       
 before_script: 
   - echo $JAVA_HOME
-  - ls -l /lib/jvm
   - mvn --version && which mvn && echo $PATH
